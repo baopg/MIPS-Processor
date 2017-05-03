@@ -1,0 +1,102 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.3 (win64) Build 1682563 Mon Oct 10 19:07:27 MDT 2016
+| Date         : Wed May 03 22:54:27 2017
+| Host         : Yukinonb-PC running 64-bit Service Pack 1  (build 7601)
+| Command      : report_control_sets -verbose -file CPU_control_sets_placed.rpt
+| Design       : CPU
+| Device       : xc7z020
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    40 |
+| Unused register locations in slices containing registers |    41 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               0 |            0 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |             367 |          157 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |            1088 |          522 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++-------------------------+-------------------------+------------------+------------------+----------------+
+|       Clock Signal      |      Enable Signal      | Set/Reset Signal | Slice Load Count | Bel Load Count |
++-------------------------+-------------------------+------------------+------------------+----------------+
+|  IFID/EX_ALUSrcB_reg_0  |                         | reset_IBUF       |                1 |              1 |
+|  IFID/EX_ImmSigned_reg  |                         | reset_IBUF       |                1 |              1 |
+|  IFID/EX_RegDes_reg_0   |                         | reset_IBUF       |                1 |              1 |
+|  IFID/EX_WriteReg_reg_0 |                         | reset_IBUF       |                1 |              1 |
+|  IFID/EX_Byte_reg       |                         | reset_IBUF       |                1 |              2 |
+|  clock_IBUF_BUFG        | MEMWB/RF_reg[2][31][0]  | reset_IBUF       |               12 |             32 |
+|  n_0_1874_BUFG          |                         | reset_IBUF       |               20 |             32 |
+|  clock_IBUF_BUFG        | MEMWB/E[0]              | reset_IBUF       |                7 |             32 |
+|  clock_IBUF_BUFG        | MEMWB/RF_reg[30][31][0] | reset_IBUF       |               22 |             32 |
+|  clock_IBUF_BUFG        | MEMWB/RF_reg[31][31][0] | reset_IBUF       |               21 |             32 |
+|  clock_IBUF_BUFG        | MEMWB/RF_reg[3][31][0]  | reset_IBUF       |               16 |             32 |
+|  clock_IBUF_BUFG        | MEMWB/RF_reg[4][31][0]  | reset_IBUF       |                9 |             32 |
+|  clock_IBUF_BUFG        | MEMWB/RF_reg[5][31][0]  | reset_IBUF       |               13 |             32 |
+|  clock_IBUF_BUFG        | MEMWB/RF_reg[6][31][0]  | reset_IBUF       |               20 |             32 |
+|  clock_IBUF_BUFG        | MEMWB/RF_reg[7][31][0]  | reset_IBUF       |               27 |             32 |
+|  clock_IBUF_BUFG        | MEMWB/RF_reg[8][31][0]  | reset_IBUF       |               17 |             32 |
+|  clock_IBUF_BUFG        | MEMWB/RF_reg[9][31][0]  | reset_IBUF       |               16 |             32 |
+|  clock_IBUF_BUFG        | MEMWB/RF_reg[10][31][0] | reset_IBUF       |               13 |             32 |
+|  clock_IBUF_BUFG        | MEMWB/RF_reg[11][31][0] | reset_IBUF       |               22 |             32 |
+|  clock_IBUF_BUFG        | MEMWB/RF_reg[12][31][0] | reset_IBUF       |               12 |             32 |
+|  clock_IBUF_BUFG        | MEMWB/RF_reg[13][31][0] | reset_IBUF       |               14 |             32 |
+|  clock_IBUF_BUFG        | MEMWB/RF_reg[14][31][0] | reset_IBUF       |               10 |             32 |
+|  clock_IBUF_BUFG        | MEMWB/RF_reg[15][31][0] | reset_IBUF       |               16 |             32 |
+|  clock_IBUF_BUFG        | MEMWB/RF_reg[16][31][0] | reset_IBUF       |               14 |             32 |
+|  clock_IBUF_BUFG        | MEMWB/RF_reg[17][31][0] | reset_IBUF       |               12 |             32 |
+|  clock_IBUF_BUFG        | MEMWB/RF_reg[18][31][0] | reset_IBUF       |               18 |             32 |
+|  clock_IBUF_BUFG        | MEMWB/RF_reg[19][31][0] | reset_IBUF       |               13 |             32 |
+|  clock_IBUF_BUFG        | MEMWB/RF_reg[20][31][0] | reset_IBUF       |               16 |             32 |
+|  clock_IBUF_BUFG        | MEMWB/RF_reg[21][31][0] | reset_IBUF       |               15 |             32 |
+|  clock_IBUF_BUFG        | MEMWB/RF_reg[22][31][0] | reset_IBUF       |               18 |             32 |
+|  clock_IBUF_BUFG        | MEMWB/RF_reg[23][31][0] | reset_IBUF       |               19 |             32 |
+|  clock_IBUF_BUFG        | MEMWB/RF_reg[24][31][0] | reset_IBUF       |               13 |             32 |
+|  clock_IBUF_BUFG        | MEMWB/RF_reg[25][31][0] | reset_IBUF       |               15 |             32 |
+|  clock_IBUF_BUFG        | MEMWB/RF_reg[26][31][0] | reset_IBUF       |               17 |             32 |
+|  clock_IBUF_BUFG        | MEMWB/RF_reg[27][31][0] | reset_IBUF       |               19 |             32 |
+|  clock_IBUF_BUFG        | MEMWB/RF_reg[28][31][0] | reset_IBUF       |               15 |             32 |
+|  clock_IBUF_BUFG        | MEMWB/RF_reg[29][31][0] | reset_IBUF       |               17 |             32 |
+|  clock_IBUF_BUFG        | IDEX/E[0]               | reset_IBUF       |               34 |             96 |
+|  clock_IBUF_BUFG        |                         | IDEX/EX_Stall    |               58 |            138 |
+|  clock_IBUF_BUFG        |                         | reset_IBUF       |               74 |            191 |
++-------------------------+-------------------------+------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 1      |                     4 |
+| 2      |                     1 |
+| 16+    |                    35 |
++--------+-----------------------+
+
+

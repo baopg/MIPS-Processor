@@ -1,0 +1,42 @@
+Vivado Simulator 2016.3
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2016.3/bin/unwrapped/win64.o/xelab.exe -wto 4d05a53b55c14d2d8ab1e753223371fc --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot CPU_Test_behav xil_defaultlib.CPU_Test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 5 for port out [E:/Education/DOAN/BaoCao/MIPS_Processor2/MIPS_Processor2.srcs/sources_1/new/CPU.v:305]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 5 for port in_0 [E:/Education/DOAN/BaoCao/MIPS_Processor2/MIPS_Processor2.srcs/sources_1/new/CPU.v:309]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 5 for port out [E:/Education/DOAN/BaoCao/MIPS_Processor2/MIPS_Processor2.srcs/sources_1/new/CPU.v:311]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 5 for port EX_Target [E:/Education/DOAN/BaoCao/MIPS_Processor2/MIPS_Processor2.srcs/sources_1/new/CPU.v:354]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 5 for port EX_Target [E:/Education/DOAN/BaoCao/MIPS_Processor2/MIPS_Processor2.srcs/sources_1/new/CPU.v:444]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 5 for port EX_Target [E:/Education/DOAN/BaoCao/MIPS_Processor2/MIPS_Processor2.srcs/sources_1/new/CPU.v:485]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "E:/Education/DOAN/BaoCao/MIPS_Processor2/MIPS_Processor2.srcs/sim_1/imports/testBenches/rom.v" Line 2. Module rom doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/Education/DOAN/BaoCao/MIPS_Processor2/MIPS_Processor2.srcs/sim_1/imports/testBenches/memory.v" Line 2. Module memory doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/Education/DOAN/BaoCao/MIPS_Processor2/MIPS_Processor2.srcs/sim_1/imports/testBenches/rom.v" Line 2. Module rom doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/Education/DOAN/BaoCao/MIPS_Processor2/MIPS_Processor2.srcs/sim_1/imports/testBenches/memory.v" Line 2. Module memory doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Add
+Compiling module xil_defaultlib.Mux2to1
+Compiling module xil_defaultlib.Register(INIT=-4)
+Compiling module xil_defaultlib.IFID_Stage
+Compiling module xil_defaultlib.Control
+Compiling module xil_defaultlib.RegisterFile
+Compiling module xil_defaultlib.Register(WIDTH=64)
+Compiling module xil_defaultlib.IDEX_Stage
+Compiling module xil_defaultlib.Mux4to1
+Compiling module xil_defaultlib.Mux2to1(WIDTH=5)
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.EXMEM_Stage
+Compiling module xil_defaultlib.Mem_Control
+Compiling module xil_defaultlib.MEMWB_Stage
+Compiling module xil_defaultlib.Forwarding
+Compiling module xil_defaultlib.Branch_Control
+Compiling module xil_defaultlib.Hazard
+Compiling module xil_defaultlib.CPU
+Compiling module xil_defaultlib.rom
+Compiling module xil_defaultlib.memory
+Compiling module xil_defaultlib.CPU_Test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot CPU_Test_behav

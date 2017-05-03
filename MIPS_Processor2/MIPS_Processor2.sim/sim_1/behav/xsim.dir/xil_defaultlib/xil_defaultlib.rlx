@@ -1,0 +1,25 @@
+0.6
+2016.3
+Oct 10 2016
+19:46:48
+E:/Education/DOAN/BaoCao/MIPS_Processor2/MIPS_Processor2.sim/sim_1/behav/glbl.v,1476033524,verilog,,,,glbl,,,,,,,,
+E:/Education/DOAN/BaoCao/MIPS_Processor2/MIPS_Processor2.srcs/sim_1/imports/testBenches/memory.v,1492940701,verilog,,,,memory,,,../../../MIPS_Processor2.srcs/sources_1/new,,,,,
+E:/Education/DOAN/BaoCao/MIPS_Processor2/MIPS_Processor2.srcs/sim_1/imports/testBenches/rom.v,1492940693,verilog,,,,rom,,,../../../MIPS_Processor2.srcs/sources_1/new,,,,,
+E:/Education/DOAN/BaoCao/MIPS_Processor2/MIPS_Processor2.srcs/sim_1/new/CPU_Test.v,1492940463,verilog,,,,CPU_Test,,,../../../MIPS_Processor2.srcs/sources_1/new,,,,,
+E:/Education/DOAN/BaoCao/MIPS_Processor2/MIPS_Processor2.srcs/sources_1/new/ALU.v,1492954425,verilog,,,E:/Education/DOAN/BaoCao/MIPS_Processor2/MIPS_Processor2.srcs/sources_1/new/MIPS_Parameters.v,ALU,,,../../../MIPS_Processor2.srcs/sources_1/new,,,,,
+E:/Education/DOAN/BaoCao/MIPS_Processor2/MIPS_Processor2.srcs/sources_1/new/Add.v,1492839308,verilog,,,,Add,,,../../../MIPS_Processor2.srcs/sources_1/new,,,,,
+E:/Education/DOAN/BaoCao/MIPS_Processor2/MIPS_Processor2.srcs/sources_1/new/Branch_Control.v,1492947374,verilog,,,E:/Education/DOAN/BaoCao/MIPS_Processor2/MIPS_Processor2.srcs/sources_1/new/MIPS_Parameters.v,Branch_Control,,,../../../MIPS_Processor2.srcs/sources_1/new,,,,,
+E:/Education/DOAN/BaoCao/MIPS_Processor2/MIPS_Processor2.srcs/sources_1/new/CPU.v,1492953964,verilog,,,,CPU,,,../../../MIPS_Processor2.srcs/sources_1/new,,,,,
+E:/Education/DOAN/BaoCao/MIPS_Processor2/MIPS_Processor2.srcs/sources_1/new/Control.v,1492954608,verilog,,,E:/Education/DOAN/BaoCao/MIPS_Processor2/MIPS_Processor2.srcs/sources_1/new/MIPS_Parameters.v,Control,,,../../../MIPS_Processor2.srcs/sources_1/new,,,,,
+E:/Education/DOAN/BaoCao/MIPS_Processor2/MIPS_Processor2.srcs/sources_1/new/EXMEM_Stage.v,1492941420,verilog,,,,EXMEM_Stage,,,../../../MIPS_Processor2.srcs/sources_1/new,,,,,
+E:/Education/DOAN/BaoCao/MIPS_Processor2/MIPS_Processor2.srcs/sources_1/new/Forwarding.v,1492796573,verilog,,,,Forwarding,,,../../../MIPS_Processor2.srcs/sources_1/new,,,,,
+E:/Education/DOAN/BaoCao/MIPS_Processor2/MIPS_Processor2.srcs/sources_1/new/Hazard.v,1492799924,verilog,,,,Hazard,,,../../../MIPS_Processor2.srcs/sources_1/new,,,,,
+E:/Education/DOAN/BaoCao/MIPS_Processor2/MIPS_Processor2.srcs/sources_1/new/IDEX_Stage.v,1492937981,verilog,,,,IDEX_Stage,,,../../../MIPS_Processor2.srcs/sources_1/new,,,,,
+E:/Education/DOAN/BaoCao/MIPS_Processor2/MIPS_Processor2.srcs/sources_1/new/IFID_Stage.v,1492941892,verilog,,,,IFID_Stage,,,../../../MIPS_Processor2.srcs/sources_1/new,,,,,
+E:/Education/DOAN/BaoCao/MIPS_Processor2/MIPS_Processor2.srcs/sources_1/new/MEMWB_Stage.v,1492842787,verilog,,,,MEMWB_Stage,,,../../../MIPS_Processor2.srcs/sources_1/new,,,,,
+E:/Education/DOAN/BaoCao/MIPS_Processor2/MIPS_Processor2.srcs/sources_1/new/MIPS_Parameters.v,1492783663,verilog,,,,,,,,,,,,
+E:/Education/DOAN/BaoCao/MIPS_Processor2/MIPS_Processor2.srcs/sources_1/new/Mem_Control.v,1492948262,verilog,,,,Mem_Control,,,../../../MIPS_Processor2.srcs/sources_1/new,,,,,
+E:/Education/DOAN/BaoCao/MIPS_Processor2/MIPS_Processor2.srcs/sources_1/new/Mux2to1.v,1492781377,verilog,,,,Mux2to1,,,../../../MIPS_Processor2.srcs/sources_1/new,,,,,
+E:/Education/DOAN/BaoCao/MIPS_Processor2/MIPS_Processor2.srcs/sources_1/new/Mux4to1.v,1492848308,verilog,,,,Mux4to1,,,../../../MIPS_Processor2.srcs/sources_1/new,,,,,
+E:/Education/DOAN/BaoCao/MIPS_Processor2/MIPS_Processor2.srcs/sources_1/new/Register.v,1492785942,verilog,,,,Register,,,../../../MIPS_Processor2.srcs/sources_1/new,,,,,
+E:/Education/DOAN/BaoCao/MIPS_Processor2/MIPS_Processor2.srcs/sources_1/new/RegisterFile.v,1492953546,verilog,,,,RegisterFile,,,../../../MIPS_Processor2.srcs/sources_1/new,,,,,
